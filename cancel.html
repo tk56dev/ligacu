@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>決済未完了 | ligacu</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #f5f4f2;
+        color: #171717;
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      main {
+        width: min(100%, 680px);
+        background: #fff;
+        border-radius: 24px;
+        padding: 48px 28px;
+        text-align: center;
+      }
+
+      .eyebrow {
+        color: #77716b;
+        font-size: 12px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+      }
+
+      h1 {
+        font-size: clamp(30px, 7vw, 46px);
+        font-weight: 300;
+        margin: 0 0 24px;
+      }
+
+      p {
+        color: #625d57;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.9;
+        margin: 0 auto 32px;
+        max-width: 480px;
+      }
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0 28px;
+        border-radius: 999px;
+        background: #111;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      .sub {
+        margin-top: 18px;
+        background: transparent;
+        color: #171717;
+        border: 1px solid #ddd8d2;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">Payment Incomplete</div>
+      <h1>決済が完了していません</h1>
+      <p>
+        この時点では予約は確定していません。再度空き枠を選択するか、
+        不安な点があれば公式LINEでご相談ください。
+      </p>
+      <a href="/#booking">再度空き枠を選ぶ</a>
+      <br />
+      <a class="sub" href="https://lin.ee/Zdym5sb" target="_blank" rel="noopener noreferrer">LINEで相談する</a>
+    </main>
+  </body>
+</html>
